@@ -4,6 +4,9 @@ import '../styles/dashboard.css';
 import SingleCard from '../components/reusable/SingleCard';
 import MileChart from '../charts/MileChart';
 import CarStatsChart from '../charts/CarStatsChart';
+import RecommendCarCard from '../components/UI/RecommendCarCard';
+
+import recommendCarsData from '../assets/dummy-data/recommendCars';
 
 const carObj = {
   title: 'Total Cars',
@@ -50,6 +53,12 @@ const Dashboard = () => {
             <h3 className='stats__title'>Car Statistics</h3>
             <CarStatsChart />
           </div>
+        </div>
+
+        <div className='recommend__cars-wrapper'>
+          {recommendCarsData.map((item) => (
+            <RecommendCarCard item={item} key={item.id} />
+          ))}
         </div>
       </div>
     </div>
