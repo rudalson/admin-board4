@@ -23,5 +23,18 @@
 
 body {
   font-family: 'DM Sans', sans-serif;
-  /* background: var(--body-bg); */
+  background: var(--body-bg);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.main__layout {
+  margin-left: 260px;
 }
