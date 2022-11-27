@@ -2,6 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## 참고
+
+```
+yarn add recharts remixicon react-router-dom
+```
+
+### 필요 패키지
+
+- recharts
+- remixicon
+- react-router-dom
+
 ## Available Scripts
 
 In the project directory, you can run:
