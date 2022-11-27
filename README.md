@@ -13,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## 참고
 
 ```
-yarn add recharts remixicon react-router-dom
+yarn add recharts remixicon react-router-dom react-circular-progressbar
 ```
 
 ### 필요 패키지
@@ -21,6 +21,7 @@ yarn add recharts remixicon react-router-dom
 - recharts
 - remixicon
 - react-router-dom
+- react-circular-progressbar
 
 ## Available Scripts
 
